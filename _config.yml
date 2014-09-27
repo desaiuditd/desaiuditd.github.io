@@ -3,8 +3,8 @@ title: Incognitech
 email: desaiuditd@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings of an Incognito Mind :P
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://incognitech.in" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://desaiuditd.github.io" # the base hostname & protocol for your site
 twitter_username: desaiuditd
 github_username:  desaiuditd
 
