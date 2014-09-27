@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Got Leh'd
+author:
+  display_name: Udit Desai
+  login: desaiuditd
+  email: desaiuditd@gmail.com
+  url: http://about.me/desaiuditd
+author_login: desaiuditd
+author_email: desaiuditd@gmail.com
+author_url: http://about.me/desaiuditd
+wordpress_id: 247
+wordpress_url: http://blog.incognitech.in/?p=247
+date: '2014-06-04 21:56:28 -0400'
+date_gmt: '2014-06-04 16:11:28 -0400'
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
+comments: []
+---
+<div><img src='http:&#47;&#47;scontent-a.cdninstagram.com&#47;hphotos-xpf1&#47;t51.2885-15&#47;10449146_723201424388084_676514306_n.jpg' style='max-width:600px;' &#47;><br&#47;>
+<div>via Instagram http:&#47;&#47;ift.tt&#47;1pFtstv<&#47;div><&#47;div></p>
