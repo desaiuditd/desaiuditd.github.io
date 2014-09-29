@@ -18,15 +18,14 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/assets/themes/agency/mail/contact_me.php",
-                type: "POST",
+                url: "http://getsimpleform.com/messages/ajax?form_api_token=64b65c4eb0304de825c3c090e7f5dee5",
+                dataType: 'jsonp',
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-                cache: false,
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
