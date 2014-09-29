@@ -17,7 +17,9 @@
             {% endif %}
         </div>
 
-        {% if page.path != "index.md" %}
+        {% if page.path == "blog.md" %}
+            {% include themes/agency/modules/blog.html %}
+        {% elsif page.path != "index.md" %}
             {{ content }}
         {% endif %}
 

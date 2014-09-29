@@ -1,4 +1,17 @@
 <!-- Blog Section -->
+
+{% if page.path == "blog.md" %}
+
+	<section id="blog">
+		<div class="container">
+			{% include JB/setup %}
+			{% assign posts_collate = site.posts %}
+			{% include JB/posts_collate %}
+		</div>
+	</section>
+
+{% else %}
+
 	<section id="blog">
 		<div class="container">
 			<div class="row">
@@ -20,3 +33,5 @@
 			<a href="{{ HOME_PATH }}blog.html" class="btn btn-xl">Explore</a>
 		</div>
 	</section>
+
+{% endif %}
