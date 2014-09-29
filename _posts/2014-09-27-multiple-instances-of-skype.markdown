@@ -22,6 +22,7 @@ tags:
 - Multiple Instances
 comments: []
 ---
+
 Follow these steps to run multiple instances of Skype on same machine.
 
 ### Windows
