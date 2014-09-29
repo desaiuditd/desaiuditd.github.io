@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : #'UA-46748923-1'
+        tracking_id : 'UA-46748923-1'
     getclicky :
       site_id :
     mixpanel :
@@ -137,28 +137,33 @@ color:
   secondary-dark: 333
 
 # Team names, titles and social links
-people:
-- name: Udit Desai
-  pic: udit
-  position: Web Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+# people:
+# - name: Udit Desai
+#   pic: udit
+#   position: Web Developer
+#   social:
+#     - title: twitter
+#       url: https://twitter.com/desaiuditd
+#     - title: facebook
+#       url: https://facebook.com/desaiuditd
+#     - title: google-plus
+#       url: https://plus.google.com/+UditDesaiIncog
+#     - title: instagram
+#       url: http://instagram.com/desaiuditd
+#     - title: github
+#       url: https://github.com/desaiuditd
 
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    - title: twitter
+      url: https://twitter.com/desaiuditd
+    - title: facebook
+      url: https://facebook.com/desaiuditd
+    - title: google-plus
+      url: https://plus.google.com/+UditDesaiIncog
+    - title: instagram
+      url: http://instagram.com/desaiuditd
+    - title: github
+      url: https://github.com/desaiuditd
+
 
 markdown: kramdown
