@@ -14,7 +14,10 @@
               {{ content }}
             </div>
 
+            <hr />
+
           {% unless page.categories == empty %}
+            <strong>Categories:</strong>
             <ul class="tag_box inline">
               <li><i class="icon-folder-open"></i></li>
               {% assign categories_list = page.categories %}
@@ -23,6 +26,7 @@
           {% endunless %}
 
           {% unless page.tags == empty %}
+            <strong>Tags:</strong>
             <ul class="tag_box inline">
               <li><i class="icon-tags"></i></li>
               {% assign tags_list = page.tags %}
