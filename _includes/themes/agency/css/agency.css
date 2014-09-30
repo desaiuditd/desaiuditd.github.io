@@ -55,7 +55,6 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    margin-top: 0px;
 }
 
 .img-centered {
@@ -270,7 +269,7 @@ fieldset[disabled] .btn-xl.active {
 
 .page-header {
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 1px;
 }
 
 header {
