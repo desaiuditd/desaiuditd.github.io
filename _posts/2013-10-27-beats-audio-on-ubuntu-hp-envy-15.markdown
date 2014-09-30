@@ -46,6 +46,8 @@ comments:
     Happy to help :)
 ---
 
+![](/uploads/2013/10/beats_audio_2-wallpaper-1920x1080-650x365.png)
+
 The very new HP Envy 15 or any other high config machine with Beats Audio with its 4 audio speakers (2 under the display & 2 below the keyboard in the back panel) and sub-woofer boasting Beats Audio technology which in itself is a tremendous piece of work in the audio technology domain. It has an impressive audio output registering an average 85 decibels on playing Bryan Adam's Summer of '69.
 
 But the tricky part is; if you are a Ubuntu Geek and want to run the same machine on Ubuntu with the expectation that it will run perfectly fine just like it runs on pre-installed Windows; then you are mistaken. Ubuntu by default takes the default Intel on-board audio controller instead of Beats' external one and your beats audio on ubuntu are dead. You will need to explicitly tell you machine to override the on-board audio controller. It is a big turn off if you can't get your machine working on its full capacity even though it is capable of doing so. Here is an easy to go steps to get that outstanding result back on Ubuntu:
