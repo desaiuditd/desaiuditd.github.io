@@ -23,15 +23,17 @@ tags:
 - Speakers
 comments: []
 ---
-<p>You might have faced this problem that your laptop speakers are working perfectly fine; but the same sound doesn't come when you attach your headphones to the laptop. Here's a small headphones sound work around in ubuntu:</p>
-<ol>
-<li>Using a Terminal="Applications->Accessories->Terminal"<&#47;li>
-<li>Open this file for editing. <code>sudo vim &#47;etc&#47;modprobe.d&#47;alsa-base.conf<&#47;code><&#47;li>
-<li>Insert this line at the bottom: <code>options snd-hda-intel model=hp-dv5 enable_msi=1<&#47;code><&#47;li>
-<li>Save. Close. Reboot. Check your levels in alsamixer. <code>alsamixer<&#47;code><&#47;li>
-<li>Press <code><F6><&#47;code> to select the correct soundcard. Press <code><F3><&#47;code> to show playback levels. <code><F4><&#47;code> selects capture levels [or use <code><Tab><&#47;code>]. Use the left&#47;right arrow keys to select and up&#47;down arrow keys to change levels. <code><M><&#47;code> to mute&#47;unmute.<&#47;li>
-<li>Go to "System ->Preferences ->Sound" and make sure the correct sound-card is default and adjust your profile on the hardware tab.<&#47;li>
-<li>On the output tab choose the correct device.<&#47;li><br />
-<&#47;ol><br />
-And there you go !! Your headphones should be banging your ears with the bass ! :+1: :wink:</p>
-<p>NOTE : This solution is tested on Ubuntu 13.04.</p>
+
+You might have faced this problem that your laptop speakers are working perfectly fine; but the same sound doesn't come when you attach your headphones to the laptop. Here's a small headphones sound work around in ubuntu:
+
+1. Using a Terminal = "Applications->Accessories->Terminal"
+2. Open this file for editing. `sudo vim /etc/modprobe.d/alsa-base.conf`
+3. Insert this line at the bottom: `options snd-hda-intel model=hp-dv5 enable_msi=1`
+4. Save. Close. Reboot. Check your levels in alsamixer. `alsamixer`
+5. Press `<F6>` to select the correct sound-card. Press `<F3>` to show playback levels. `<F4>` selects capture levels [or use `<Tab>`]. Use the left/right arrow keys to select and up/down arrow keys to change levels. `<M>` to mute/unmute.
+6. Go to "System ->Preferences ->Sound" and make sure the correct sound-card is default and adjust your profile on the hardware tab.
+7. On the output tab choose the correct device.
+
+And there you go !! Your headphones should be banging your ears with the bass ! :+1: :wink:
+
+**NOTE :** This solution is tested on Ubuntu 13.04.

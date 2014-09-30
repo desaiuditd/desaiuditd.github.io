@@ -22,6 +22,7 @@ tags:
 - Instagram
 comments: []
 ---
-<div><img alt="" src="http:&#47;&#47;distilleryimage6.s3.amazonaws.com&#47;f788e752aae211e3a20e0e7fffce62c2_8.jpg" &#47;></p>
-<div>via Instagram http:&#47;&#47;ift.tt&#47;1hgdUVA<&#47;div><br />
-<&#47;div></p>
+
+![](http://distilleryimage6.s3.amazonaws.com/f788e752aae211e3a20e0e7fffce62c2_8.jpg)
+
+via [Instagram](http://ift.tt/1hgdUVA)

@@ -23,6 +23,7 @@ tags:
 - Instagram
 comments: []
 ---
-<div><img style="max-width: 600px;" src="http:&#47;&#47;origincache-prn.fbcdn.net&#47;929087_732007613509876_2115874665_n.jpg" alt="" &#47;></p>
-<div>via Instagram http:&#47;&#47;ift.tt&#47;RTKWEn<&#47;div><br />
-<&#47;div></p>
+
+![](http://origincache-prn.fbcdn.net/929087_732007613509876_2115874665_n.jpg)
+
+via [Instagram](http://ift.tt/RTKWEn)

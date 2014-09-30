@@ -21,10 +21,15 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    margin: 0 0 20px;
 }
 
 p.large {
     font-size: 16px;
+}
+
+li {
+    margin-bottom: 20px;
 }
 
 a,
@@ -211,6 +216,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.primary }};
 }
 
+.nav li {
+    margin-bottom: 0px;
+}
+
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -326,7 +335,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 section h2.section-heading {

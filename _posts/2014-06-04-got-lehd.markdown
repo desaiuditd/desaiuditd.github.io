@@ -22,5 +22,7 @@ tags:
 - Instagram
 comments: []
 ---
-<div><img src='http:&#47;&#47;scontent-a.cdninstagram.com&#47;hphotos-xpf1&#47;t51.2885-15&#47;10449146_723201424388084_676514306_n.jpg' style='max-width:600px;' &#47;><br&#47;>
-<div>via Instagram http:&#47;&#47;ift.tt&#47;1pFtstv<&#47;div><&#47;div></p>
+
+![](http://scontent-a.cdninstagram.com/hphotos-xpf1/t51.2885-15/10449146_723201424388084_676514306_n.jpg)
+
+via [Instagram](http://ift.tt/1pFtstv)

@@ -71,95 +71,111 @@ comments:
     I'm really sorry, I do not have any knowledge on Luna.
     It maybe possible that WhatsApp has closed this loophole. Not sure though. Because I myself have stopped using this solution, as I've moved out from using WhatsApp itself :).
 ---
-<h2><a href="http:&#47;&#47;blog.incognitech.in&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;ubuntuwhatsapp2.png"><img class="size-medium wp-image-182 aligncenter" alt="ubuntuwhatsapp2" src="http:&#47;&#47;blog.incognitech.in&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;ubuntuwhatsapp2-257x266.png" width="257" height="266" &#47;><&#47;a><&#47;h2></p>
-<h2>Installation and configuration<&#47;h2></p>
-<ol>
-<li><code>apt-get install python python-dateutil python-argparse<&#47;code><&#47;li>
-<li><code>wget https:&#47;&#47;github.com&#47;tgalal&#47;yowsup&#47;archive&#47;master.zip<&#47;code><&#47;li>
-<li><code>unzip master.zip<&#47;code><&#47;li>
-<li><code>cd yowsup-master&#47;src<&#47;code><&#47;li>
-<li><code>cp config.example yowsup-cli.config\<&#47;code><&#47;li>
-<li><code>cat yowsup-cli.config<&#47;code><&#47;li><br />
-<&#47;ol></p>
-<pre>cc=34<br />
-phone=34123456789<br />
-id=<br />
-password=<&#47;pre></p>
-<ol start="7">
-<li><code>chmod +x yowsup-cli<&#47;code><&#47;li>
-<li><code>.&#47;yowsup-cli --requestcode sms --config yowsup-cli.config<&#47;code><&#47;li><br />
-<&#47;ol></p>
-<pre>status: sent<br />
-retry_after: 3605<br />
-length: 6<br />
-method: sms<&#47;pre></p>
-<ol start="9">
-<li><code>.&#47;yowsup-cli --register 123-456 --config yowsup-cli.config<&#47;code><&#47;li><br />
-<&#47;ol></p>
-<pre>status: ok<br />
-kind: free<br />
-pw: S1nBGCvZhb6TBQrbm2sQCfSLkXM=<br />
-price: 0,89<br />
-price_expiration: 1362803446<br />
-currency: EUR<br />
-cost: 0.89<br />
-expiration: 1391344106<br />
-login: 34123456789<br />
-type: new<&#47;pre></p>
-<ol start="10">
-<li>Copy the <code>pw<&#47;code> field from the output &amp; paste it in front of <code>password<&#47;code> field in the <code>yowsup-cli.config<&#47;code>.Your <code>yowsup-cli.config<&#47;code> should look like below:<code>cat yowsup-cli.config<&#47;code><&#47;li><br />
-<&#47;ol></p>
-<pre>cc=34<br />
-phone=34123456789<br />
-id=<br />
-password=S1nBGCvZhb6TBQrbm2sQCfSLkXM=<&#47;pre></p>
-<h2>Send a message<&#47;h2><br />
-<code>.&#47;yowsup-cli --send 34111222333 "Test message" --wait --config yowsup-cli.config<&#47;code></p>
-<pre>Connecting to c.whatsapp.net<br />
-Authed 34123456789<br />
-Sent message<br />
-Got sent receipt<&#47;pre></p>
-<h2>Receive messages<&#47;h2><br />
-<code>.&#47;yowsup-cli --listen --autoack --keepalive --config yowsup-cli.config<&#47;code></p>
-<pre>Connecting to c.whatsapp.net<br />
-Authed 34123456789<br />
-34111222333@s.whatsapp.net [02-02-2013 14:14]:I have received a test message from you<&#47;pre></p>
-<h2>Interactive: Send and receive messages<&#47;h2><br />
-<code>.&#47;yowsup-cli --interactive 34111222333 --wait --autoack --keepalive --config yowsup-cli.config<&#47;code></p>
-<pre>Connecting to c.whatsapp.net<br />
-Authed 34123456789<br />
-Starting Interactive chat with 34111222333<br />
-Enter Message or command: (&#47;available, &#47;lastseen, &#47;unavailable)<br />
-Yes, I know it<br />
-34123456789 [02-02-2013 14:15]:Yes, I know it<br />
-Enter Message or command: (&#47;available, &#47;lastseen, &#47;unavailable)<br />
-34111222333@s.whatsapp.net [02-02-2013 14:16]:What are you doing?<br />
-Enter Message or command: (&#47;available, &#47;lastseen, &#47;unavailable)<br />
-Testing a new application<br />
-34123456789 [02-02-2013 14:16]:Testing a new application<br />
-Enter Message or command: (&#47;available, &#47;lastseen, &#47;unavailable)<br />
-&#47;unavailable<&#47;pre></p>
-<h2>Too much of geeky stuff ??<&#47;h2></p>
-<ol>
-<li>Skip all the steps of sending and receiving a message. Just install the WhatsApp client &amp; configure it as mentioned.<&#47;li>
-<li>We will use Pidgin Instant Messenger to make this work. Install it if you don't have it.<br />
-<code>sudo apt-get install pidgin<&#47;code><&#47;li></p>
-<li>Then install WhatsApp protocol implementation for Pidgin.<br />
-<code>sudo add-apt-repository ppa:whatsapp-purple&#47;ppa<&#47;code><br />
-<code>sudo apt-get update<&#47;code><br />
-<code>sudo apt-get install pidgin-whatsapp<&#47;code><&#47;li></p>
-<li>Now simply launch Pidgin. Add a whatsapp account, put username as the phone number with country code ( as written above) and password as the string we obtained earlier.<&#47;li>
-<li>Use WhatsApp on Ubuntu of yours. ( P.S.: Don&rsquo;t use it simultaneously on your mobile )<&#47;li><br />
-<&#47;ol></p>
-<h2>WhatsApp Emojis for Pidgin<&#47;h2><br />
-You need to install and enable the <strong>Emoji smiley theme<&#47;strong>. Just copy one of the sub-directories from following Git repositories to <code>$HOME&#47;.purple&#47;smileys&#47;<&#47;code> and enable the newly installed theme in the Pidgin preferences window.</p>
-<ul>
-<li><a href="https:&#47;&#47;github.com&#47;stv0g&#47;unicode-emoji">https:&#47;&#47;github.com&#47;stv0g&#47;unicode-emoji<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;github.com&#47;VxJasonxV&#47;emoji-for-pidgin">https:&#47;&#47;github.com&#47;VxJasonxV&#47;emoji-for-pidgin<&#47;a><&#47;li><br />
-<&#47;ul></p>
-<h2>Known Issues<&#47;h2><br />
-I've tested this on my Ubuntu 13.04 (64 bit) &amp; it seems to be working perfectly. Though the trouble part is at the other hand. Whenever the other person receives a message sent by us via Pidgin; the mobile phone hangs up a bit &amp; WhatsApp gets crashed ;) :P</p>
-<p>Yet, it's all togather a different story whether WhatsApp mobile app is reading messages properly &nbsp;which comes from Pidgin or not. Maybe Pidgin seems to be sending any unknown message&#47;socket headers which the mobile app can't decode. (Tested on Samsung S Advance &amp; Micromax Canvas) &nbsp;Anyways, this is problem is for the mobile users :P and not for you if you want to use WhatsApp on your machine.</p>
-<p>Regarding Emojis, some of them might not work but this is the best that I've come across.</p>
-<p>&nbsp;</p>
-<p>P.S. : This method will not work if you're already using WhatsApp on your mobile with same mobile number. You will need another number to get this working.</p>
+
+![](/uploads/2014/03/ubuntuwhatsapp2-257x266.png)
+
+## Installation and configuration
+
+1.  `apt-get install python python-dateutil python-argparse`
+2.  `wget https://github.com/tgalal/yowsup/archive/master.zip`
+3.  `unzip master.zip`
+4.  `cd yowsup-master/src`
+5.  `cp config.example yowsup-cli.config`
+6.  `cat yowsup-cli.config`
+
+        cc=34
+        phone=34123456789
+        id=
+        password=
+
+7.  `chmod +x yowsup-cli`
+8.  `./yowsup-cli --requestcode sms --config yowsup-cli.config`
+
+        status: sent
+        retry_after: 3605
+        length: 6
+        method: sms
+
+9.  `./yowsup-cli --register 123-456 --config yowsup-cli.config`
+
+        status: ok
+        kind: free
+        pw: S1nBGCvZhb6TBQrbm2sQCfSLkXM=
+        price: 0,89
+        price_expiration: 1362803446
+        currency: EUR
+        cost: 0.89
+        expiration: 1391344106
+        login: 34123456789
+        type: new
+
+10. Copy the `pw` field from the output & paste it in front of `password` field in the `yowsup-cli.config`. Your `yowsup-cli.config` should look like below: `cat yowsup-cli.config`
+
+        cc=34
+        phone=34123456789
+        id=
+        password=S1nBGCvZhb6TBQrbm2sQCfSLkXM=
+
+## Send a message
+
+`./yowsup-cli --send 34111222333 "Test message" --wait --config yowsup-cli.config`
+
+    Connecting to c.whatsapp.net
+    Authed 34123456789
+    Sent message
+    Got sent receipt
+
+## Receive messages
+
+`./yowsup-cli --listen --autoack --keepalive --config yowsup-cli.config`
+
+    Connecting to c.whatsapp.net
+    Authed 34123456789
+    34111222333@s.whatsapp.net [02-02-2013 14:14]:I have received a test message from you
+
+## Interactive: Send and receive messages
+
+`./yowsup-cli --interactive 34111222333 --wait --autoack --keepalive --config yowsup-cli.config`
+
+    Connecting to c.whatsapp.net
+    Authed 34123456789
+    Starting Interactive chat with 34111222333
+    Enter Message or command: (/available, /lastseen, /unavailable)
+    Yes, I know it
+    34123456789 [02-02-2013 14:15]:Yes, I know it
+    Enter Message or command: (/available, /lastseen, /unavailable)
+    34111222333@s.whatsapp.net [02-02-2013 14:16]:What are you doing?
+    Enter Message or command: (/available, /lastseen, /unavailable)
+    Testing a new application
+    34123456789 [02-02-2013 14:16]:Testing a new application
+    Enter Message or command: (/available, /lastseen, /unavailable)
+    /unavailable
+
+## Too much of geeky stuff ??
+
+1. Skip all the steps of sending and receiving a message. Just install the WhatsApp client & configure it as mentioned.
+2. We will use Pidgin Instant Messenger to make this work. Install it if you don't have it.
+`sudo apt-get install pidgin`
+3. Then install WhatsApp protocol implementation for Pidgin.
+    - `sudo add-apt-repository ppa:whatsapp-purple/ppa`
+    - `sudo apt-get update`
+    - `sudo apt-get install pidgin-whatsapp`
+4. Now simply launch Pidgin. Add a whatsapp account, put username as the phone number with country code (as written above) and password as the string we obtained earlier.
+5. Use WhatsApp on Ubuntu of yours. ( **NOTE :** Don't use it simultaneously on your mobile ).
+
+## WhatsApp Emojis for Pidgin
+
+You need to install and enable the **Emoji smiley theme**. Just copy one of the sub-directories from following Git repositories to `$HOME/.purple/smileys/` and enable the newly installed theme in the Pidgin preferences window.
+
+- [https://github.com/stv0g/unicode-emoji](https://github.com/stv0g/unicode-emoji)
+- [https://github.com/VxJasonxV/emoji-for-pidgin](https://github.com/VxJasonxV/emoji-for-pidgin)
+
+## Known Issues
+
+I've tested this on my Ubuntu 13.04 (64 bit) & it seems to be working perfectly. Though the trouble part is at the other hand. Whenever the other person receives a message sent by us via Pidgin; the mobile phone hangs up a bit & WhatsApp gets crashed :wink: :stuck_out_tongue:
+
+Yet, it's all togather a different story whether WhatsApp mobile app is reading messages properly  which comes from Pidgin or not. Maybe Pidgin seems to be sending any unknown message/socket headers which the mobile app can't decode. (Tested on Samsung S Advance & Micromax Canvas) Anyway, this problem is for the mobile users :stuck_out_tongue: and not for you if you want to use WhatsApp on your machine.
+
+Regarding Emojis, some of them might not work but this is the best that I've come across.
+
+**NOTE :** This method will not work if you're already using WhatsApp on your mobile with same mobile number. You will need another number to get this working.

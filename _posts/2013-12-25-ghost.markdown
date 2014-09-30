@@ -24,23 +24,42 @@ tags:
 - Nodejs
 comments: []
 ---
-<h3 id="introduction">Introduction<&#47;h3></p>
-<p>This is something new that I've come across. Something different from any conventional blogging platform like&nbsp;<a href="http:&#47;&#47;wordpress.org&#47;">WordPress<&#47;a>&nbsp;or&nbsp;<a href="http:&#47;&#47;joomla.org&#47;">Joomla<&#47;a>&nbsp;or&nbsp;<a href="http:&#47;&#47;drupal.org&#47;">Drupal<&#47;a>.<br />
-This is based on&nbsp;<a href="http:&#47;&#47;nodejs.org&#47;">Node.js<&#47;a>&nbsp;which is its most earliest stage that is just v0.3.</p>
-<h3 id="simplicity">Simplicity<&#47;h3></p>
-<p>But cosidering its simplicity you can very quickly get used to its interface. The interface is so simple and so beautiful that any content writer or "Poetry" writer would love it to get started with their hands.</p>
-<h3 id="features">Features<&#47;h3></p>
-<p>The Ghost team has come up with the very basic CRUD operational Blogging platform built upon&nbsp;<a href="http:&#47;&#47;twitter.com&#47;JohnONolan">John O'Nolan<&#47;a>'s wireframic inception about a new blogging platform which is based on a concept for a fictional platform that would be once more about online publishing rather than building complex websites. And so far it looks exactly like this.</p>
-<p>Another new exciting feature would be Markdown syntax; especially for those who love writing readme's and lots of technical documentation on&nbsp;<a href="http:&#47;&#47;github.com&#47;">Github<&#47;a>&nbsp;or any other framework that supports&nbsp;<a href="http:&#47;&#47;daringfireball.net&#47;projects&#47;markdown&#47;syntax">Markdown syntax<&#47;a>.</p>
-<h3 id="themes">Themes<&#47;h3></p>
-<p>Just like WordPress or any other CMS framework&nbsp;<a href="http:&#47;&#47;ghost.org&#47;">Ghost<&#47;a>&nbsp;also support custom themes for your blog. You can switch between multiple themes and re-design your blog within a few minutes. Ghost is managing its own&nbsp;<a href="http:&#47;&#47;marketplace.ghost.org&#47;">marketplace<&#47;a>&nbsp;for a variety of themes in a huge number both - free 'n' open-source themes and premium themes developed by Ghost &amp; Node.js community. Ghost Theme framework is highly based on&nbsp;<a href="http:&#47;&#47;handlebarsjs.com&#47;">Handlebars<&#47;a>.</p>
-<h3 id="hosting">Hosting<&#47;h3></p>
-<p>Recently Ghost has launched its new Blog Hosting Service for users to use. It has got fair monthly pricing and one month trial usage subscription as well. You can just sign up to&nbsp;<a href="http:&#47;&#47;ghost.org&#47;">Ghost<&#47;a>&nbsp;and play around with it.</p>
-<h3 id="geekystuff">Geeky Stuff<&#47;h3></p>
-<p>If you have got your own server that can run Node.js then you are good to go. Ghost is an open source project. You can just download the core framework package,&nbsp;<a href="http:&#47;&#47;docs.ghost.org&#47;installation&#47;">install<&#47;a>&nbsp;on the server,&nbsp;<a href="http:&#47;&#47;docs.ghost.org&#47;usage&#47;">configure<&#47;a>,&nbsp;<a href="http:&#47;&#47;docs.ghost.org&#47;mail&#47;">setup<&#47;a>&nbsp;the mailing system and you're good to go with your own blog.</p>
-<h3 id="sofartillnow">So far till now<&#47;h3></p>
-<p>Looking at Ghost Stats; So far Ghost has been downloaded 99K+ times and counting.<br />
-Ghost is backed up by many of the big giants from the industry such as<a href="http:&#47;&#47;ie.microsoft.com&#47;">Internet Explorer<&#47;a>,&nbsp;<a href="http:&#47;&#47;envato.com&#47;">envato<&#47;a>,&nbsp;<a href="http:&#47;&#47;woothemes.com&#47;">Woo Themes<&#47;a>,&nbsp;<a href="http:&#47;&#47;codeschool.com&#47;">Code School<&#47;a>,&nbsp;<a href="http:&#47;&#47;marketpress.com&#47;">MarketPress<&#47;a>&nbsp;etc.</p>
-<h3 id="support">Support<&#47;h3></p>
-<p>Ghost is buzzing up 24x7 on its&nbsp;<a href="https:&#47;&#47;ghost.org&#47;forum&#47;">Support Forums<&#47;a>&nbsp;and lots of developers are emerging into this new platform to make it a better platform for the blogging community.</p>
-<p>At last, I just can say one thing about Ghost; I'm just lovin' it ! <3 (Check it out <a title="here" href="http:&#47;&#47;incognitech.ghost.io" target="_blank">here<&#47;a>)</p>
+
+### Introduction
+
+This is something new that I've come across. Something different from any conventional blogging platform like [WordPress](http://wordpress.org/) or [Joomla](http://joomla.org/) or [Drupal](http://drupal.org/).
+
+This is based on [Node.js](http://nodejs.org/) which is its most earliest stage that is just v0.3.
+
+### Simplicity
+
+But cosidering its simplicity you can very quickly get used to its interface. The interface is so simple and so beautiful that any content writer or "Poetry" writer would love it to get started with their hands.
+
+### Features
+
+The Ghost team has come up with the very basic CRUD operational Blogging platform built upon [John O'Nolan](http://twitter.com/JohnONolan)'s wireframic inception about a new blogging platform which is based on a concept for a fictional platform that would be once more about online publishing rather than building complex websites. And so far it looks exactly like this.
+
+Another new exciting feature would be Markdown; especially for those who love writing readme's and lots of technical documentation on [Github](http://github.com) or any other framework that supports [Markdown](http://daringfireball.net/projects/markdown/syntax).
+
+### Themes
+
+Just like WordPress or any other CMS framework [Ghost](http://ghost.org/) also support custom themes for your blog. You can switch between multiple themes and re-design your blog within a few minutes. Ghost is managing its own [marketplace](http://marketplace.ghost.org/) for a variety of themes in a huge number both - free 'n' open-source themes and premium themes developed by Ghost & Node.js community. Ghost Theme framework is highly based on [Handlebars](http://handlebarsjs.com/).
+
+### Hosting
+
+Recently Ghost has launched its new Blog Hosting Service for users to use. It has got fair monthly pricing and one month trial usage subscription as well. You can just sign up to [Ghost](http://ghost.org/) and play around with it.
+
+### Geeky Stuff
+
+If you have got your own server that can run Node.js then you are good to go. Ghost is an open source project. You can just download the core framework package, [install](http://docs.ghost.org/installation/) on the server, [configure](http://docs.ghost.org/usage/), [setup](http://docs.ghost.org/mail/); the mailing system and you're good to go with your own blog.
+
+### So far till now
+
+Looking at Ghost Stats; So far Ghost has been downloaded 99K+ times and counting.
+Ghost is backed up by many of the big giants from the industry such as [Internet Explorer](http://ie.microsoft.com/), [evanto](http://envato.com/), [Woo Themes](http://woothemes.com/), [Code School](http://codeschool.com/), [MarketPress](http://marketpress.com/) etc.
+
+### Support
+
+Ghost is buzzing up 24x7 on its [Support Forum](https://ghost.org/forum/) and lots of developers are emerging into this new platform to make it a better platform for the blogging community.
+
+At last, I just can say one thing about Ghost; I'm just lovin' it ! :heart:

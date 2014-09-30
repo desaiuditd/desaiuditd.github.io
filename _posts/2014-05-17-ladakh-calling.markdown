@@ -22,5 +22,7 @@ tags:
 - Instagram
 comments: []
 ---
-<div><img src='http:&#47;&#47;origincache-prn.fbcdn.net&#47;926767_742735845778922_2031321620_n.jpg' style='max-width:600px;' &#47;><br&#47;>
-<div>via Instagram http:&#47;&#47;ift.tt&#47;1jptXFr<&#47;div><&#47;div></p>
+
+![](http://origincache-prn.fbcdn.net/926767_742735845778922_2031321620_n.jpg)
+
+via [Instagram](http://ift.tt/1jptXFr)
