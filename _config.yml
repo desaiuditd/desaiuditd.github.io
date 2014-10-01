@@ -172,3 +172,4 @@ markdown: kramdown
 gems:
   - jemoji
   - jekyll-sitemap
+  - jekyll-mentions
