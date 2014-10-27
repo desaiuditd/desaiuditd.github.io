@@ -3,8 +3,6 @@
 {% case site.JB.analytics.provider %}
 {% when "mixpanel" %}
   {% include JB/analytics-providers/mixpanel %}
-{% when "piwik" %}
-  {% include JB/analytics-providers/piwik %}
 {% when "custom" %}
   {% include custom/analytics %}
 {% endcase %}
@@ -13,3 +11,4 @@
 
 {% include JB/analytics-providers/google %}
 {% include JB/analytics-providers/getclicky %}
+{% include JB/analytics-providers/piwik %}
