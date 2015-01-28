@@ -880,6 +880,6 @@ img {
     width: 100%;
 }
 
-img.emoji {
+img.emoji, img.img-circle {
     width: initial;
 }
