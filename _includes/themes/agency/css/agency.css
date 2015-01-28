@@ -875,3 +875,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+
+img {
+    width: 100%;
+}
+
+img.emoji {
+    width: initial;
+}
