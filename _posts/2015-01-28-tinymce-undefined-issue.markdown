@@ -1,6 +1,6 @@
 ---
 layout: post
-status: draft
+status: publish
 title: TinyMCE Undefined Issue
 date: '2015-01-28 12:39:28 -0400'
 date_gmt: '2015-01-28 12:39:28 -0400'
