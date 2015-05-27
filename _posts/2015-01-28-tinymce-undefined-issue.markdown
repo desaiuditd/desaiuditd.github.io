@@ -14,7 +14,7 @@ tags:
 - wp_editor
 ---
 
-WordPress supports a very rich WYSIWYG editor in terms of TinyMCE. It works perfectly well when we, ( here I'm refering to all the geeky developers :godmode: :wink: ) do not temper with the content of TinyMCE through JS code. In a nutshell, it is smooth and valid. But it happens very rare that we do not have to customize the way a feature behaves by default. So in this case, we may have to add new content or update the existing content or in some cases clear out the content in the editor.
+WordPress supports a very rich WYSIWYG editor in terms of TinyMCE. It works perfectly well when we, ( here I'm referring to all the geeky developers :godmode: :wink: ) do not temper with the content of TinyMCE through JS code. In a nutshell, it is smooth and valid. But it happens very rare that we do not have to customize the way a feature behaves by default. So in this case, we may have to add new content or update the existing content or in some cases clear out the content in the editor.
 
 On the first thought, our mind comes with this great and very simple idea that let's write this awesome JS code bound to some event which would add/update/remove the content using TinyMCE API that is exposed to common developer. So we write some sort of following pseudo logic.
 
