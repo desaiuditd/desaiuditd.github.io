@@ -345,7 +345,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 40px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -362,6 +362,14 @@ section h3.section-subheading {
 .skill-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+p.history {
+    margin-bottom: 15px;
+}
+
+p.history:last-child {
+    margin-bottom: 40px;
 }
 
 #portfolio .portfolio-item {
