@@ -1,7 +1,9 @@
 ---
 layout: post
+status: publish
 title: "Extra HTTP Auth User for EasyEngine"
-description: ""
+date: '2015-05-27 12:39:28 -0400'
+date_gmt: '2015-05-27 12:39:28 -0400'
 category:
 - Tech
 tags:
