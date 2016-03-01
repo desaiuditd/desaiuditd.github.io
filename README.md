@@ -1,7 +1,5 @@
 ## Incognitech
 
-[![Build Status](https://travis-ci.org/desaiuditd/desaiuditd.github.io.svg?branch=master)](https://travis-ci.org/desaiuditd/desaiuditd.github.io)
-
 Source Code for http://incognitech.in or http://blog.incognitech.in
 
 Developed using Jekyll, Jekyll-BootStrap.
