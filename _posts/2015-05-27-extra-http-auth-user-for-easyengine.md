@@ -15,16 +15,22 @@ tags:
 
 Add a new user for HTTP Auth in EasyEngine setup.
 
-    openssl passwd -crypt <plain-text-password>
+```shell
+openssl passwd -crypt <plain-text-password>
+```
 
 Above command will print the encrypted password on the console. Copy the encrypted password.
 
-    cd /etc/nginx
-    vim htpasswd-ee
+```shell
+cd /etc/nginx
+vim htpasswd-ee
+```
 
 Add following exact line at the end.
 
-    <username>:<encrypted-password>
+```shell
+<username>:<encrypted-password>
+```
 
 Save the file.
 
@@ -32,5 +38,7 @@ You can commit this change if you want since EasyEngine keeps the nginx director
 
 And That's it ! You're good to go with following credentials for your HTTP Auth.
 
-    username : <username>
-    password : <plain-text-password>
+```shell
+username : <username>
+password : <plain-text-password>
+```

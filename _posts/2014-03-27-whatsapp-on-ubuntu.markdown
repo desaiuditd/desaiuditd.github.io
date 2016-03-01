@@ -83,73 +83,87 @@ comments:
 5.  `cp config.example yowsup-cli.config`
 6.  `cat yowsup-cli.config`
 
-        cc=34
-        phone=34123456789
-        id=
-        password=
+	```shell
+	cc=34
+	phone=34123456789
+	id=
+	password=
+	```
 
 7.  `chmod +x yowsup-cli`
 8.  `./yowsup-cli --requestcode sms --config yowsup-cli.config`
 
-        status: sent
-        retry_after: 3605
-        length: 6
-        method: sms
+	````shell
+	status: sent
+	retry_after: 3605
+	length: 6
+	method: sms
+	```
 
 9.  `./yowsup-cli --register 123-456 --config yowsup-cli.config`
 
-        status: ok
-        kind: free
-        pw: S1nBGCvZhb6TBQrbm2sQCfSLkXM=
-        price: 0,89
-        price_expiration: 1362803446
-        currency: EUR
-        cost: 0.89
-        expiration: 1391344106
-        login: 34123456789
-        type: new
+	```shell
+	status: ok
+	kind: free
+	pw: S1nBGCvZhb6TBQrbm2sQCfSLkXM=
+	price: 0,89
+	price_expiration: 1362803446
+	currency: EUR
+	cost: 0.89
+	expiration: 1391344106
+	login: 34123456789
+	type: new
+	```
 
 10. Copy the `pw` field from the output & paste it in front of `password` field in the `yowsup-cli.config`. Your `yowsup-cli.config` should look like below: `cat yowsup-cli.config`
 
-        cc=34
-        phone=34123456789
-        id=
-        password=S1nBGCvZhb6TBQrbm2sQCfSLkXM=
+	```shell
+	cc=34
+	phone=34123456789
+	id=
+	password=S1nBGCvZhb6TBQrbm2sQCfSLkXM=
+	```
 
 ## Send a message
 
 `./yowsup-cli --send 34111222333 "Test message" --wait --config yowsup-cli.config`
 
-    Connecting to c.whatsapp.net
-    Authed 34123456789
-    Sent message
-    Got sent receipt
+```shell
+Connecting to c.whatsapp.net
+Authed 34123456789
+Sent message
+Got sent receipt
+```
 
 ## Receive messages
 
 `./yowsup-cli --listen --autoack --keepalive --config yowsup-cli.config`
 
-    Connecting to c.whatsapp.net
-    Authed 34123456789
-    34111222333@s.whatsapp.net [02-02-2013 14:14]:I have received a test message from you
+```shell
+Connecting to c.whatsapp.net
+Authed 34123456789
+34111222333@s.whatsapp.net [02-02-2013 14:14]:I have received a test message from you
+```
 
 ## Interactive: Send and receive messages
 
 `./yowsup-cli --interactive 34111222333 --wait --autoack --keepalive --config yowsup-cli.config`
 
-    Connecting to c.whatsapp.net
-    Authed 34123456789
-    Starting Interactive chat with 34111222333
-    Enter Message or command: (/available, /lastseen, /unavailable)
-    Yes, I know it
-    34123456789 [02-02-2013 14:15]:Yes, I know it
-    Enter Message or command: (/available, /lastseen, /unavailable)
-    34111222333@s.whatsapp.net [02-02-2013 14:16]:What are you doing?
-    Enter Message or command: (/available, /lastseen, /unavailable)
-    Testing a new application
-    34123456789 [02-02-2013 14:16]:Testing a new application
-    Enter Message or command: (/available, /lastseen, /unavailable)
-    /unavailable
+```shell
+Connecting to c.whatsapp.net
+Authed 34123456789
+Starting Interactive chat with 34111222333
+Enter Message or command: (/available, /lastseen, /unavailable)
+Yes, I know it
+34123456789 [02-02-2013 14:15]:Yes, I know it
+Enter Message or command: (/available, /lastseen, /unavailable)
+34111222333@s.whatsapp.net [02-02-2013 14:16]:What are you doing?
+Enter Message or command: (/available, /lastseen, /unavailable)
+Testing a new application
+34123456789 [02-02-2013 14:16]:Testing a new application
+Enter Message or command: (/available, /lastseen, /unavailable)
+/unavailable
+```
 
 ## Too much of geeky stuff ??
 

@@ -18,16 +18,18 @@ WordPress supports a very rich WYSIWYG editor in terms of TinyMCE. It works perf
 
 On the first thought, our mind comes with this great and very simple idea that let's write this awesome JS code bound to some event which would add/update/remove the content using TinyMCE API that is exposed to common developer. So we write some sort of following pseudo logic.
 
-	jQuery(document).ready(function($) {
+```javascript
+jQuery(document).ready(function($) {
 
-		$(".class-to-update-content").on("click", function(e) {
-			tinyMCE.get("tinymce-editor-id").setContent("New Content in Editor");
-		});
-
-		$(".class-to-get-content").on("click", function(e) {
-			$("div.display-block").html( tinyMCE.get("tinymce-editor-id").getContent() );
-		});
+	$(".class-to-update-content").on("click", function(e) {
+		tinyMCE.get("tinymce-editor-id").setContent("New Content in Editor");
 	});
+
+	$(".class-to-get-content").on("click", function(e) {
+		$("div.display-block").html( tinyMCE.get("tinymce-editor-id").getContent() );
+	});
+});
+```
 
 
 We feel like we're on the top of the world after writing this cool piece of code :innocent:. We are all set to test out the code on our webpage. At first, it might have worked on our local environment. And we think that this is the code that's going to work and immediately push to code to staging environment. And that's where the catch comes and it traps us. Someone from the QA team or some other developer reports a bug saying WYSIWYG editor is not working and you're like What the Fish :open_mouth: !
@@ -40,65 +42,69 @@ The real issue here is that TinyMCE has not finished initializing itself when yo
 
 One solution out of WordPress is that you make use of a callback such as [oninit](http://www.tinymce.com/wiki.php/Configuration3x:oninit).
 
-	function myCustomOnInit() {
-		alert("We are ready to rumble!!");
-		// So here you can bind your events and other stuff.
-	}
-	tinyMCE.init({
-		...
-		oninit : myCustomOnInit
-	});
+```javascript
+function myCustomOnInit() {
+	alert("We are ready to rumble!!");
+	// So here you can bind your events and other stuff.
+}
+tinyMCE.init({
+	...
+	oninit : myCustomOnInit
+});
+```
 
 But in WordPress environment, initialization of TinyMCE is not in our control. Because WordPress handles that itself.
 
 So for that we have to put a fallback to prevent this error as follows:
 
-	jQuery(document).ready(function($) {
+```javascript
+jQuery(document).ready(function($) {
 
-		function myCustomSetContent( id, content ) {
-			// Check if TinyMCE is defined or not.
-			if( typeof tinymce != "undefined" ) {
-				var editor = tinymce.get( id );
-				// Check if TinyMCE is initialized properly or not.
-				if( editor && editor instanceof tinymce.Editor ) {
-					editor.setContent( text );
-					editor.save( { no_events: true } );
-				} else {
-					// Fallback
-					// If TinyMCE is not initialized then directly set the value in textarea.
-					//TinyMCE will take up this value when it gets initialized.
-					jQuery( '#'+id ).val( text );
-				}
-				return true;
+	function myCustomSetContent( id, content ) {
+		// Check if TinyMCE is defined or not.
+		if( typeof tinymce != "undefined" ) {
+			var editor = tinymce.get( id );
+			// Check if TinyMCE is initialized properly or not.
+			if( editor && editor instanceof tinymce.Editor ) {
+				editor.setContent( text );
+				editor.save( { no_events: true } );
+			} else {
+				// Fallback
+				// If TinyMCE is not initialized then directly set the value in textarea.
+				//TinyMCE will take up this value when it gets initialized.
+				jQuery( '#'+id ).val( text );
 			}
-			return false;
+			return true;
 		}
+		return false;
+	}
 
-		function myCustomGetContent( id ) {
-			// Check if TinyMCE is defined or not.
-			if( typeof tinymce != "undefined" ) {
-				var editor = tinymce.get( id );
-				// Check if TinyMCE is initialized properly or not.
-				if( editor && editor instanceof tinymce.Editor ) {
-					return editor.getContent();
-				} else {
-					// Fallback
-					// If TinyMCE is not initialized then directly set the value in textarea.
-					// TinyMCE will take up this value when it gets initialized.
-					return jQuery( '#'+id ).val();
-				}
+	function myCustomGetContent( id ) {
+		// Check if TinyMCE is defined or not.
+		if( typeof tinymce != "undefined" ) {
+			var editor = tinymce.get( id );
+			// Check if TinyMCE is initialized properly or not.
+			if( editor && editor instanceof tinymce.Editor ) {
+				return editor.getContent();
+			} else {
+				// Fallback
+				// If TinyMCE is not initialized then directly set the value in textarea.
+				// TinyMCE will take up this value when it gets initialized.
+				return jQuery( '#'+id ).val();
 			}
-			return '';
 		}
+		return '';
+	}
 
-		$(".class-to-update-content").on("click", function(e) {
-			myCustomSetContent( "tinymce-editor-id", "New Content in Editor" );
-		});
-
-		$(".class-to-get-content").on("click", function(e) {
-			$("div.class-to-display-content").html( myCustomGetContent( "tinymce-editor-id" ) );
-		});
+	$(".class-to-update-content").on("click", function(e) {
+		myCustomSetContent( "tinymce-editor-id", "New Content in Editor" );
 	});
+
+	$(".class-to-get-content").on("click", function(e) {
+		$("div.class-to-display-content").html( myCustomGetContent( "tinymce-editor-id" ) );
+	});
+});
+```
 
 This way we can fix this sort of TinyMCE undefined
 issues.

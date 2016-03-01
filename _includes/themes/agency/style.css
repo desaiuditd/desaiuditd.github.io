@@ -1,3 +1,4 @@
 {% include themes/agency/css/bootstrap.min.css %}
 {% include themes/agency/css/twitter.css %}
 {% include themes/agency/css/agency.css %}
+{% include themes/agency/css/codehighlight.css %}

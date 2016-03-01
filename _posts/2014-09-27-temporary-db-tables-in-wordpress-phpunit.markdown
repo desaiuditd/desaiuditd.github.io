@@ -35,12 +35,14 @@ The sole purpose of such mechanism is to keep the test data away from the databa
 
 Override `setUp` method of `WP_UnitTestCase` class in your own testcase class. The method definition should look as follows:
 
-    function setUp() {
-        // Perform the actual task according to parent class.
-        parent::setUp();
-        // Remove filters that will create temporary tables. So that permanent tables will be created.
-        remove_filter( 'query', array( $this, '_create_temporary_table' ) );
-        remove_filter( 'query', array( $this, '_drop_temporary_table' ) );
-    }
+```php
+function setUp() {
+	// Perform the actual task according to parent class.
+	parent::setUp();
+	// Remove filters that will create temporary tables. So that permanent tables will be created.
+	remove_filter( 'query', array( $this, '_create_temporary_table' ) );
+	remove_filter( 'query', array( $this, '_drop_temporary_table' ) );
+}
+```
 
 Above code will do the trick. Happy coding & testing ! :smile:
