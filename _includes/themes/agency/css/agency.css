@@ -892,48 +892,48 @@ body {
 /**
  * min-width: 320px by default. Mobile First
  */
-img {
+iframe, img {
 	max-width: 280px;
 }
 
 @media (min-width: 360px) {
-	img {
+	iframe, img {
 		max-width: 325px;
 	}
 }
 
 @media (min-width: 375px) {
-	img {
+	iframe, img {
 		max-width: 340px;
 	}
 }
 
 @media (min-width: 412px) {
-	img {
+	iframe, img {
 		max-width: 375px;
 	}
 }
 
 @media (min-width: 600px) {
-	img {
+	iframe, img {
 		max-width: 555px;
 	}
 }
 
 @media (min-width: 768px) {
-	img {
+	iframe, img {
 		max-width: 710px;
 	}
 }
 
 @media (min-width: 992px) {
-	img {
+	iframe, img {
     	max-width: 930px;
 	}
 }
 
 @media (min-width: 1200px) {
-	img {
+	iframe, img {
 		max-width: 1170px;
 	}
 }
