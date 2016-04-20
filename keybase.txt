@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/desaiuditd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.incognitech.in
+  * I am desaiuditd (https://keybase.io/desaiuditd) on keybase.
+  * I have a public key with fingerprint 2C76 0DDF EAF3 3C66 B687  FCFB 7F21 FD23 2244 74F5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010121f7b8dcd979f3a5303a77a1ea4845e2e42fbd46c93a31066fd9a3eeb797bfd30a",
+            "fingerprint": "2c760ddfeaf33c66b687fcfb7f21fd23224474f5",
+            "host": "keybase.io",
+            "key_id": "7f21fd23224474f5",
+            "kid": "010121f7b8dcd979f3a5303a77a1ea4845e2e42fbd46c93a31066fd9a3eeb797bfd30a",
+            "uid": "ae92cb027aad4aa60ca78f67a6717a19",
+            "username": "desaiuditd"
+        },
+        "service": {
+            "hostname": "blog.incognitech.in",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1461137285,
+    "expire_in": 157680000,
+    "prev": "b7899faf86ade59e539569361492e2a8fbb0330b1b0a429401f2def1109ad746",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbSBVBGF7L0ozKiDAoSLYLVKI7O7s7u6cg8SWhpAIjo+Q0uzNzzqDt
+nvbsOWolhBBlRfcoMiuKKCyKsnrIQAsrohuIhV0JuheUUkn5EM2KvfXYvMzMz/d9
+//d//J1jhks5GZHy0sb8V7wh4+71oylpeV7RpvWy7ZE6ObJerqKDF60mNBlEqziR
+I7ICFKAChmyTOMRCFoNYhwrECGFAsWZqOlWppjKbaIZjQQyBYhiMWBhSaiML2YxA
+BcsFMuNujPoJn7uBkFUdZCiEMIoZhI5h2IaJmMNsxEQzokJV1TSkMV0Q414yZAhz
+Nk7SQu6JmvhEB+39A/+ffacG5TC1VMdWVIQx0TA2FAcjkxkIGwgIRSsEJqnv4jVU
+oEV+mKcID4hcXyCLepo7NIw2nGUIY1d7sULuOl7M5QF14uItRBK+F3iOVy0A8SBI
+REJ+UJcICTXUjg5JRW3uEpGnIKSpn+SeK0eAQDoBD7WBZgAAkWrqBTKtTXCfRnmI
+0JFhKuKEbWg69IBMy2KYmQYmVLeoDi3dsKABNEulKjaZbSsQKjawFayplqYAphLK
+AFAsTJBmyOFwa11PjkBhE8eEZJLHXBykfCrX3+hYlSll5EgjRwwL90zKGZX7d/vu
+FGX9lk8+b3o/9dnT5sNjl/TEOxt33m0+P6Nz2f7H5xZMAFLTk/b9uaP7r13suQ92
+PyBb9+RWHrl6YF1bdf3iA1VlyR2ns5qzl5oTL6N6CCf3TWpfdOhUw8C5d5hu9O9F
+zAvw4/uDJa9qulIvx3yY/bmmduqR4itYOgwrNtSeLm9v2b5t86+uN1mtx4rKGj5N
+1yraMiT0Y21fZ/fH9N68HTdWt04bnz2RFVTOLLm1sO1Zaf/wR4ea5q78Op++Zffi
+N7f4vVHlxJmsaS/SuvS1tHhXK/7RXXu28MvtVa97O/Z8+Xa+ZV7TknHRBphZPOfS
+rpaHfPrL5yuqfpbNKh518OT3vPzjA71T9v0BHGZFkg==
+=kVXY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/desaiuditd
+
+==================================================================
