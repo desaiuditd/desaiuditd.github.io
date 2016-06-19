@@ -18,3 +18,6 @@
 {% endcase %}
 
 {% endif %}
+
+<!-- include clicky anyway. -->
+{% include JB/analytics-providers/getclicky %}
