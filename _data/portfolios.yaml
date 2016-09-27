@@ -1,0 +1,53 @@
+- title: Incognitech Bot
+  subtitle: An Alexa Bot and a Chat Bot to get you up with the Tech News from TechCrunch
+  layout: default
+  id: 6
+  date: 2016-09-15
+  img: incognitech-bot.png
+  thumbnail: incognitech-bot-thumbnail.png
+  alt: image-alt
+  project-date: September 2016
+  client: Winner at TechCrunch Disrupt SF 2016 Hackathon for TechCrunch/Crunchbase/WordPress Data Hack
+  category: IoT, Amazon Alexa, IBM Watson, Sentiment Analytics, WordPress REST API, Node.js
+  description: "Everyone has busy lives these days. Staying connected to the Tech world is getting harder and more time consuming each day, especially with so many growing startups and new innovations.<br /><br /> We wanted news to be served with the least amount of physical interaction. We wanted to make tech news more accessible.<br /><br /> The two most accessible platforms (Amazon Alexa & IBM Watson Conversation) give you instantaneous results about the latest TechCrunch articles and Sentimental Analysis about tech-based companies through Amazon Alexa and a web based chat interface."
+  link: 'http://incogni.tech'
+
+- title: RoomScore
+  subtitle: Mobile App for Room-mates
+  layout: default
+  id: 5
+  date: 2016-05-15
+  img: roomscore.png
+  thumbnail: roomscore-thumbnail.png
+  alt: image-alt
+  project-date: May 2016
+  client: <br />- Sponsor Winners at AngelHack Silicon Valley 2016 - Creative Use of Amazon AWS & Amazon Echo<br /><br />- Runners Up at HackDavis 2016 under Creative Use of Amazon Echo - Alexa
+  category: Web App, Mobile App, Android, iOS, Meteor, Node.js, Amazon Alexa, MongoDB
+  description: "Revolutionising and redefining a service that puts housemates at the centre of the experience.<br /><br /> With this scoring based app, we can keep track of all the activities that go about in a house or Room, and track whether people are doing their share on time!<br /><br /> Tip of the Ice-berg: We integrated Amazon Alexa to keep track of each person's Chores with just a call <i>\"Alexa, what do I have in my task list ?\"</i> and even help assign tasks to their fellow Roommates through Voice Commands with a simple <i>\"Alexa, Remind Jack to Take the Trash Out.\"</i>"
+  link: 'http://roomscore.incognitech.in'
+
+- title: Animated Umbrella
+  subtitle: A Tech Blog Search Engine
+  layout: default
+  id: 4
+  date: 2016-05-31
+  img: animated-umbrella.png
+  thumbnail: animated-umbrella-thumbnail.png
+  alt: image-alt
+  project-date: May 2016
+  category: Web Development, Web Search, Information Retrieval, Search Engine, Elasticsearch, Meteor, Node.js, MongoDB, Java, Ruby
+  description: "A web search engine for famous Tech blog websites.<br /><br /> This will serve as a data mining tool for famous tech blogs and the articles, blog posts related to technology domain.<br /><br /> It includes Crawler, Indexer, Noise Removal Module, Search Engine Indexer, Search Engine, Web Interface"
+  link: 'http://bit.ly/animated-umbrella'
+
+- title: Watchman
+  subtitle: WordPress plugin to track revisions
+  layout: default
+  id: 3
+  date: 2014-12-02
+  img: watchman.png
+  thumbnail: watchman-thumbnail.png
+  alt: image-alt
+  project-date: December 2014
+  category: Web Development, WordPress
+  description: "Watchman is a WordPress plugin which keeps track of revisions for your posts, pages and custom post types as well.<br /><br /> Following are some of the trivial features:<br /><br /> - Tracks Post Title & Post Content - inherits from WordPress Core<br />- Controls number of revisions for all post types<br />- Tracks Post Author<br />- Tracks Post Date<br />- Tracks Featured Image<br />- Tracks Comments for a Post<br />- Tracks Metadata<br />- Tracks Terms from Taxonomy"
+  link: 'https://wordpress.org/plugins/watchman/'

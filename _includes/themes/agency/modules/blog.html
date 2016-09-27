@@ -1,81 +1,36 @@
 <!-- Blog Section -->
 
-{% if page.path == "blog.md" %}
+<section id="blog">
+	<div class="container">
 
-	<section id="blog">
+		<!-- Google Adsense -->
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Incognitech AdSense -->
+		<ins class="adsbygoogle"
+			 style="display:block"
+			 data-ad-client="ca-pub-2157482864791682"
+			 data-ad-slot="3785934257"
+			 data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 
-		<header class="page-header">
-			<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-		</header>
-
-		<div class="container">
-
-			<!-- Google Adsense -->
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Incognitech AdSense -->
-			<ins class="adsbygoogle"
-				 style="display:block"
-				 data-ad-client="ca-pub-2157482864791682"
-				 data-ad-slot="3785934257"
-				 data-ad-format="auto"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-
-			{% include JB/setup %}
-			{% assign posts_collate = site.posts %}
-			{% include JB/posts_collate %}
-
-			<!-- Google Adsense -->
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Incognitech AdSense -->
-			<ins class="adsbygoogle"
-				 style="display:block"
-				 data-ad-client="ca-pub-2157482864791682"
-				 data-ad-slot="3785934257"
-				 data-ad-format="auto"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-
-		</div>
-	</section>
-
-{% else %}
-
-	<section id="blog">
-		<div class="container">
-
-			<!-- Google Adsense -->
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Incognitech AdSense -->
-			<ins class="adsbygoogle"
-				 style="display:block"
-				 data-ad-client="ca-pub-2157482864791682"
-				 data-ad-slot="3785934257"
-				 data-ad-format="auto"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2 class="section-heading">Blog</h2>
-					<h3 class="section-subheading text-muted">Word Ramblings ... </h3>
-				</div>
-			</div>
-			<div class="row text-center">
-				{% for post in site.posts limit:3 %}
-				<div class="col-md-4">
-					<h4 class="skill-heading"><a href="{{ BASE_PATH }}{{post.url}}">{{ post.title }}</a></h4>
-					<p class="text-muted">{{ post.content | strip_html | truncatewords: 50 }}</p>
-				</div>
-				{% endfor %}
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Blog</h2>
+				<h3 class="section-subheading text-muted">Word Ramblings ... </h3>
 			</div>
 		</div>
 		<div class="row text-center">
-			<a href="{{ site.JB.archive_path }}" class="btn btn-xl">Explore</a>
+			{% for post in site.posts limit:3 %}
+			<div class="col-md-4">
+				<h4 class="skill-heading"><a href="{{ BASE_PATH }}{{post.url}}">{{ post.title }}</a></h4>
+				<p class="text-muted">{{ post.content | strip_html | truncatewords: 50 }}</p>
+			</div>
+			{% endfor %}
 		</div>
-	</section>
-
-{% endif %}
+	</div>
+	<div class="row text-center">
+		<a href="{{ site.JB.archive_path }}" class="btn btn-xl">Explore</a>
+	</div>
+</section>

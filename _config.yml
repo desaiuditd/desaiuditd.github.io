@@ -73,6 +73,7 @@ JB :
   #
   archive_path: /blog/
   categories_path : /categories/
+  portfolio_path: /portfolio/
   tags_path : /tags/
   atom_path : /atom.xml
   rss_path : /rss.xml

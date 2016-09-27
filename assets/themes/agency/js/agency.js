@@ -25,8 +25,10 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+var currentModal;
 $('div.modal').on('show.bs.modal', function() {
 	var modal = this;
+  currentModal = modal;
 	var hash = modal.id;
 	window.location.hash = hash;
 	window.onhashchange = function() {
@@ -34,4 +36,21 @@ $('div.modal').on('show.bs.modal', function() {
 			$(modal).modal('hide');
 		}
 	}
+});
+
+$(document).ready(function($) {
+  var minHeight = 0;
+  $('.portfolio-item .portfolio-caption').each(function(i, item) {
+    if ( $(item).innerHeight() > minHeight ) {
+      minHeight = $(item).innerHeight();
+      $('.portfolio-item .portfolio-caption').innerHeight(minHeight);
+      $('.portfolio-item .portfolio-caption').outerHeight(minHeight);
+    }
+  });
+
+  $(document).on('keyup', $('body'), function(e) {
+    if (e.keyCode == 27 && $(currentModal).length) {
+      $(currentModal).modal('hide');
+    }
+  })
 });

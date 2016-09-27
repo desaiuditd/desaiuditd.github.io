@@ -17,14 +17,12 @@
             {% endif %}
         </div>
 
-        {% if page.path == "blog.md" %}
-            {% include themes/agency/modules/blog.html %}
-        {% elsif page.path != "index.md" %}
+        {% if page.path != "index.md" %}
             {{ content }}
         {% endif %}
 
         {% include themes/agency/modules/footer.html %}
-        {% if page.path == "index.md" %}
+        {% if page.path == "index.md" or page.path == "portfolio.md" %}
             {% include themes/agency/modules/modals.html %}
         {% endif %}
         {% include themes/agency/modules/js.html %}
