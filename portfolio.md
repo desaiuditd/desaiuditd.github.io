@@ -29,7 +29,9 @@ group: navigation
                       <i class="fa fa-plus fa-3x"></i>
                   </div>
               </div>
-              <img src="{{ ASSET_PATH }}/img/portfolio/{{ portfolio.thumbnail }}" class="img-responsive" alt="">
+              {% if portfolio.thumbnail %}
+                <img src="{{ ASSET_PATH }}/img/portfolio/{{ portfolio.thumbnail }}" class="img-responsive" alt="">
+              {% endif %}
               <div class="portfolio-caption">
                   <h4>{{ portfolio.title }}</h4>
                   <p class="text-muted">{{ portfolio.subtitle }}</p>

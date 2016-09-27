@@ -387,7 +387,7 @@ p.history:last-child {
 }
 
 #portfolio .portfolio-item .img-responsive {
-    max-height: 260px;
+    height: 260px;
 }
 
 #portfolio .portfolio-item .portfolio-link {

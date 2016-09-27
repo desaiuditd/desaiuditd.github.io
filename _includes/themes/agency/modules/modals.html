@@ -20,10 +20,12 @@
                             </h3>
                             <hr class="star-primary">
                             <div class="row">
-                              <div class="col-lg-8">
-                                <img src="{{ ASSET_PATH }}/img/portfolio/{{ portfolio.img }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
-                              </div>
-                              <div class="col-lg-4">
+                              {% if portfolio.img %}
+                                <div class="col-lg-8">
+                                  <img src="{{ ASSET_PATH }}/img/portfolio/{{ portfolio.img }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
+                                </div>
+                              {% endif %}
+                              <div class="{% if portfolio.img %}col-lg-4{% else %}col-lg-12{% endif %}">
                                 <p>{{ portfolio.description }}</p>
                                 <ul class="list-inline item-details">
                                   {% if portfolio.client %}
