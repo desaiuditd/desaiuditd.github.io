@@ -11,7 +11,7 @@
   client: Winner at TechCrunch Disrupt SF 2016 Hackathon for TechCrunch/Crunchbase/WordPress Data Hack
   category: IoT, Amazon Alexa, IBM Watson, Sentiment Analytics, WordPress REST API, Node.js
   description: "Everyone has busy lives these days. Staying connected to the Tech world is getting harder and more time consuming each day, especially with so many growing startups and new innovations.<br /><br /> We wanted news to be served with the least amount of physical interaction. We wanted to make tech news more accessible.<br /><br /> The two most accessible platforms (Amazon Alexa & IBM Watson Conversation) give you instantaneous results about the latest TechCrunch articles and Sentimental Analysis about tech-based companies through Amazon Alexa and a web based chat interface."
-  link: 'http://incogni.tech'
+  link: 'https://devpost.com/software/incognitech'
 
 - title: RoomScore
   subtitle: Mobile App for Room-mates
@@ -25,7 +25,7 @@
   client: <br />- Sponsor Winners at AngelHack Silicon Valley 2016 - Creative Use of Amazon AWS & Amazon Echo<br /><br />- Runners Up at HackDavis 2016 under Creative Use of Amazon Echo - Alexa
   category: Web App, Mobile App, Android, iOS, Meteor, Node.js, Amazon Alexa, MongoDB
   description: "Revolutionising and redefining a service that puts housemates at the centre of the experience.<br /><br /> With this scoring based app, we can keep track of all the activities that go about in a house or Room, and track whether people are doing their share on time!<br /><br /> Tip of the Ice-berg: We integrated Amazon Alexa to keep track of each person's Chores with just a call <i>\"Alexa, what do I have in my task list ?\"</i> and even help assign tasks to their fellow Roommates through Voice Commands with a simple <i>\"Alexa, Remind Jack to Take the Trash Out.\"</i>"
-  link: 'http://roomscore.incognitech.in'
+  link: 'https://devpost.com/software/room-score-l25vp4'
 
 - title: Animated Umbrella
   subtitle: A Tech Blog Search Engine
@@ -37,8 +37,8 @@
   alt: image-alt
   project-date: May 2016
   category: Web Development, Web Search, Information Retrieval, Search Engine, Elasticsearch, Meteor, Node.js, MongoDB, Java, Ruby
-  description: "A web search engine for famous Tech blog websites.<br /><br /> This will serve as a data mining tool for famous tech blogs and the articles, blog posts related to technology domain.<br /><br /> It includes Crawler, Indexer, Noise Removal Module, Search Engine Indexer, Search Engine, Web Interface"
-  link: 'http://bit.ly/animated-umbrella'
+  description: "A web search engine for famous Tech blog websites.<br /><br /> This will serve as a data mining tool for famous tech blogs and the articles, blog posts related to technology domain.<br /><br /> It includes Crawler, Indexer, Noise Removal Module, Search Engine Indexer, Search Engine, Query Logger, Web Interface"
+  link: 'https://devpost.com/software/animated-umbrella/'
 
 - title: Watchman
   subtitle: WordPress plugin to track revisions
