@@ -26,7 +26,14 @@
                                   <img src="{{ ASSET_PATH }}/img/portfolio/{{ portfolio.img }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
                                 </div>
                               {% endif %}
-                              <div class="{% if portfolio.img %}col-lg-4{% else %}col-lg-12{% endif %}">
+                              {% if portfolio.video %}
+                                <div class="col-lg-8">
+                                  <div class="video-container">
+                                    <iframe src="{{portfolio.video}}" frameborder="0" allowfullscreen></iframe>
+                                  </div>
+                                </div>
+                              {% endif %}
+                              <div class="{% if portfolio.img or portfolio.video %}col-lg-4{% else %}col-lg-12{% endif %}">
                                 <p>{{ portfolio.description }}</p>
                                 <ul class="list-inline item-details">
                                   {% if portfolio.client %}

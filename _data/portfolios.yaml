@@ -3,7 +3,8 @@
   layout: default
   id: 1
   date: 2016-09-15
-  img: incognitech-bot.png
+  # img: incognitech-bot.png
+  video: 'https://www.youtube.com/embed/3ZPHqEKgrro'
   thumbnail: incognitech-bot-thumbnail.png
   alt: image-alt
   project-date: September 2016
