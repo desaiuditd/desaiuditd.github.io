@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 url: "https://formspree.io/desaiuditd@gmail.com",
-                dataType: 'jsonp',
+                method: 'post',
                 data: {
                     name: name,
                     phone: phone,
