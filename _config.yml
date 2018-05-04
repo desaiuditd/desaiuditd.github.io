@@ -101,13 +101,13 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    # provider : piwik
+    provider : google
     google :
         tracking_id : 'UA-46748923-1'
     getclicky :
       site_id : '100776624'
-    mixpanel :
-        token :
+    # mixpanel :
+        # token :
     # piwik :
         # baseURL : piwik.incognitech.in  # Piwik installation address (without protocol)
         # idsite : 1                      # the id of the site on Piwik
