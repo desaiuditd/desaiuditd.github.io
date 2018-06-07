@@ -800,11 +800,11 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-ul.social-buttons {
+ul.i-social-buttons {
     margin-bottom: 0;
 }
 
-ul.social-buttons li a {
+ul.i-social-buttons li a {
     display: block;
     width: 40px;
     height: 40px;
@@ -819,9 +819,9 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+ul.i-social-buttons li a:hover,
+ul.i-social-buttons li a:focus,
+ul.i-social-buttons li a:active {
     background-color: #{{ site.color.primary }};
 }
 
