@@ -170,7 +170,7 @@ social:
 
 markdown: kramdown
 
-gems:
+plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-mentions
