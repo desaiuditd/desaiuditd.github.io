@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Pages
+layout: page
 header: Pages
 group: navigation
 ---
+
 {% include JB/setup %}
 
 <!-- Google Adsense -->

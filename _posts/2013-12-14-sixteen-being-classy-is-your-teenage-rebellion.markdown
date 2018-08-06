@@ -1,8 +1,14 @@
 ---
+title: Sixteen - Being classy is your teenage rebellion
+date: 2013-12-14 06:18:19 Z
+categories:
+- Random
+tags:
+- sixteen
+- teenage
+- rebellion
 layout: post
 status: publish
-published: true
-title: Sixteen - Being classy is your teenage rebellion
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,14 +19,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 47
 wordpress_url: http://incognitech.wordpress.com/?p=47
-date: '2013-12-14 01:18:19 -0500'
 date_gmt: '2013-12-13 19:48:19 -0500'
-categories:
-- Random
-tags:
-- sixteen
-- teenage
-- rebellion
 comments: []
 ---
 

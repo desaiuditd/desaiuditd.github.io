@@ -1,8 +1,13 @@
 ---
+title: Catch 22s - Life is full of it
+date: 2014-04-26 07:35:39 Z
+categories:
+- Random
+tags:
+- Catch 22
+- Life
 layout: post
 status: publish
-published: true
-title: Catch 22s - Life is full of it
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 202
 wordpress_url: http://blog.incognitech.in/?p=202
-date: '2014-04-26 03:35:39 -0400'
 date_gmt: '2014-04-25 21:50:39 -0400'
-categories:
-- Random
-tags:
-- Catch 22
-- Life
 comments: []
 ---
 

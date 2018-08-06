@@ -1,8 +1,16 @@
 ---
+title: Not Any More
+date: 2014-01-19 16:55:18 Z
+categories:
+- Random
+tags:
+- convocation
+- DA-IICT
+- college life
+- hostel life
+- home
 layout: post
 status: publish
-published: true
-title: Not Any More
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,16 +21,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 90
 wordpress_url: http://blog.incognitech.in/?p=90
-date: '2014-01-19 11:55:18 -0500'
 date_gmt: '2014-01-19 06:10:18 -0500'
-categories:
-- Random
-tags:
-- convocation
-- DA-IICT
-- college life
-- hostel life
-- home
 comments: []
 ---
 

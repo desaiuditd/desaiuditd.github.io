@@ -1,8 +1,13 @@
 ---
+title: "#WCMumbai 2014"
+date: 2014-03-20 02:05:36 Z
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
 layout: post
 status: publish
-published: true
-title: "#WCMumbai 2014"
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 137
 wordpress_url: http://blog.incognitech.in/?p=137
-date: '2014-03-19 22:05:36 -0400'
 date_gmt: '2014-03-19 16:20:36 -0400'
-categories:
-- Instagram
-tags:
-- IFTTT
-- Instagram
 comments: []
 ---
 

@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Categories
+layout: page
 header: Posts By Category
 group: navigation
 ---
+
 {% include JB/setup %}
 
 <!-- Google Adsense -->

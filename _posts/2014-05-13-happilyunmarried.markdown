@@ -1,8 +1,13 @@
 ---
+title: "#HappilyUnmarried"
+date: 2014-05-13 02:41:53 Z
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
 layout: post
 status: publish
-published: true
-title: "#HappilyUnmarried"
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 234
 wordpress_url: http://blog.incognitech.in/?p=234
-date: '2014-05-12 22:41:53 -0400'
 date_gmt: '2014-05-12 16:56:53 -0400'
-categories:
-- Instagram
-tags:
-- IFTTT
-- Instagram
 comments: []
 ---
 

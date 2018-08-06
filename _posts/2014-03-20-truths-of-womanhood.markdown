@@ -1,8 +1,14 @@
 ---
+title: Truths of Womanhood
+date: 2014-03-20 05:10:22 Z
+categories:
+- Random
+tags:
+- Woman
+- Feminism
+- Womanhood
 layout: post
 status: publish
-published: true
-title: Truths of Womanhood
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,14 +19,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 126
 wordpress_url: http://blog.incognitech.in/?p=126
-date: '2014-03-20 01:10:22 -0400'
 date_gmt: '2014-03-19 19:25:22 -0400'
-categories:
-- Random
-tags:
-- Woman
-- Feminism
-- Womanhood
 comments: []
 ---
 

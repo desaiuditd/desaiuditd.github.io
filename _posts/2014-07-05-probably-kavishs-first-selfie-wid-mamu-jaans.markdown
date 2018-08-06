@@ -1,8 +1,13 @@
 ---
+title: 'Probably Kavish''s first #selfie wid Mamu jaans'
+date: 2014-07-05 02:05:24 Z
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
 layout: post
 status: publish
-published: true
-title: 'Probably Kavish''s first #selfie wid Mamu jaans'
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 255
 wordpress_url: http://blog.incognitech.in/?p=255
-date: '2014-07-04 22:05:24 -0400'
 date_gmt: '2014-07-04 16:20:24 -0400'
-categories:
-- Instagram
-tags:
-- IFTTT
-- Instagram
 comments: []
 ---
 

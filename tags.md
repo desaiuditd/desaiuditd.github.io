@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Tags
+layout: page
 header: Posts By Tag
 group: navigation
 ---
+
 {% include JB/setup %}
 
 <!-- Google Adsense -->

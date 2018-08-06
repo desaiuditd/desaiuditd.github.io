@@ -1,10 +1,7 @@
 ---
-layout: post
-status: publish
-title: "Download Files from Apache Server Directory Listings"
-date: '2016-06-18 20:34:28 -0400'
-date_gmt: '2016-06-18 20:34:28 -0400'
-category:
+title: Download Files from Apache Server Directory Listings
+date: 2016-06-19 00:34:28 Z
+categories:
 - Tech
 tags:
 - Apache
@@ -12,7 +9,11 @@ tags:
 - terminal
 - shell
 - download
+layout: post
+status: publish
+date_gmt: '2016-06-18 20:34:28 -0400'
 ---
+
 {% include JB/setup %}
 
 This evening I came across a [Google Search](https://www.google.com/search?q=game+of+thrones+audiobooks) result for [Game of Thrones Audiobooks](http://tinfoilgaming.com/Public/AudioBooks/A%20Song%20of%20Ice%20and%20Fire/) and my immediate question was how can I download all these `.mp3` files at once to my computer. As going through each of those directory and clicking on those files to download was, well a bit too boring and time consuming.

@@ -1,8 +1,15 @@
 ---
+title: Adminer
+date: 2013-06-18 23:58:52 Z
+categories:
+- Tech
+tags:
+- database client
+- google
+- software
+- technology
 layout: post
 status: publish
-published: true
-title: Adminer
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,15 +20,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 6
 wordpress_url: http://desaiuditd.wordpress.com/?p=5
-date: '2013-06-18 19:58:52 -0400'
 date_gmt: '2013-06-18 19:58:52 -0400'
-categories:
-- Tech
-tags:
-- database client
-- google
-- software
-- technology
 comments:
 - id: 2
   author: bob

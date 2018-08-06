@@ -1,8 +1,13 @@
 ---
+title: WhatsApp on Ubuntu
+date: 2014-03-27 07:41:07 Z
+categories:
+- Tech
+tags:
+- Ubuntu
+- WhatsApp
 layout: post
 status: publish
-published: true
-title: WhatsApp on Ubuntu
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 167
 wordpress_url: http://blog.incognitech.in/?p=167
-date: '2014-03-27 03:41:07 -0400'
 date_gmt: '2014-03-26 21:56:07 -0400'
-categories:
-- Tech
-tags:
-- Ubuntu
-- WhatsApp
 comments:
 - id: 6
   author: nicolas cuevas

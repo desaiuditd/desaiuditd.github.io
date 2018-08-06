@@ -1,8 +1,16 @@
 ---
+title: Skype Notification Sound Distorted in Ubuntu
+date: 2014-07-17 21:21:29 Z
+categories:
+- Tech
+tags:
+- Ubuntu
+- skype
+- Notification Sound
+- Distorted sound
+- Skype Notification Distorted
 layout: post
 status: publish
-published: true
-title: Skype Notification Sound Distorted in Ubuntu
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,16 +21,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 257
 wordpress_url: http://blog.incognitech.in/?p=257
-date: '2014-07-17 17:21:29 -0400'
 date_gmt: '2014-07-17 11:36:29 -0400'
-categories:
-- Tech
-tags:
-- Ubuntu
-- skype
-- Notification Sound
-- Distorted sound
-- Skype Notification Distorted
 comments: []
 ---
 

@@ -1,7 +1,7 @@
 ---
+title: Blog
 layout: page
-title : Blog
-header : Post Archive
+header: Post Archive
 group: navigation
 ---
 

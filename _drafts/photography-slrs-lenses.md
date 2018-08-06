@@ -1,7 +1,10 @@
 ---
+title: Photography, SLRs & Lenses
+date: 2014-05-14 01:15:38 Z
+categories:
+- Uncategorized
 layout: post
 status: draft
-title: Photography, SLRs & Lenses
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -12,12 +15,9 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 236
 wordpress_url: http://blog.incognitech.in/?p=236
-date: '2014-05-13 21:15:38 -0400'
-categories:
-- Uncategorized
-tags: []
 comments: []
 ---
+
 <p>Photography SLRS<br />
 Lenses<br />
 Prime Lense<br />

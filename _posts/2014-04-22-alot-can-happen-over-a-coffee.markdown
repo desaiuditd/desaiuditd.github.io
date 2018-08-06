@@ -1,8 +1,13 @@
 ---
+title: 'Alot can happen over a #coffee'
+date: 2014-04-22 22:59:40 Z
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
 layout: post
 status: publish
-published: true
-title: 'Alot can happen over a #coffee'
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 195
 wordpress_url: http://blog.incognitech.in/?p=195
-date: '2014-04-22 18:59:40 -0400'
 date_gmt: '2014-04-22 13:14:40 -0400'
-categories:
-- Instagram
-tags:
-- IFTTT
-- Instagram
 comments: []
 ---
 

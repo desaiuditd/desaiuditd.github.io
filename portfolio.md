@@ -1,9 +1,10 @@
 ---
+title: Portfolio
 layout: page
-title : Portfolio
-header : Project Archive
+header: Project Archive
 group: navigation
 ---
+
 <div id="portfolio">
 
   <!-- Google Adsense -->

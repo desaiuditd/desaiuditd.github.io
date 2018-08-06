@@ -1,8 +1,14 @@
 ---
+title: Headphones Sound Work Around in Ubuntu
+date: 2014-03-10 20:03:58 Z
+categories:
+- Tech
+tags:
+- Ubuntu
+- Headphones
+- Speakers
 layout: post
 status: publish
-published: true
-title: Headphones Sound Work Around in Ubuntu
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,14 +19,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 116
 wordpress_url: http://blog.incognitech.in/?p=116
-date: '2014-03-10 16:03:58 -0400'
 date_gmt: '2014-03-10 10:18:58 -0400'
-categories:
-- Tech
-tags:
-- Ubuntu
-- Headphones
-- Speakers
 comments: []
 ---
 

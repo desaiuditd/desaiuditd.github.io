@@ -1,20 +1,6 @@
 ---
-layout: post
-status: publish
-published: true
 title: Wave2Wake - A stepping stone towards a touch-free era
-author:
-  display_name: Udit Desai
-  login: desaiuditd
-  email: desaiuditd@gmail.com
-  url: http://about.me/desaiuditd
-author_login: desaiuditd
-author_email: desaiuditd@gmail.com
-author_url: http://about.me/desaiuditd
-wordpress_id: 20
-wordpress_url: http://incognitech.wordpress.com/?p=20
-date: '2013-08-20 01:52:18 -0400'
-date_gmt: '2013-08-19 20:22:18 -0400'
+date: 2013-08-20 05:52:18 Z
 categories:
 - Tech
 tags:
@@ -25,6 +11,19 @@ tags:
 - iPhone
 - Samsung S4
 - Touch-free Technology
+layout: post
+status: publish
+author:
+  display_name: Udit Desai
+  login: desaiuditd
+  email: desaiuditd@gmail.com
+  url: http://about.me/desaiuditd
+author_login: desaiuditd
+author_email: desaiuditd@gmail.com
+author_url: http://about.me/desaiuditd
+wordpress_id: 20
+wordpress_url: http://incognitech.wordpress.com/?p=20
+date_gmt: '2013-08-19 20:22:18 -0400'
 comments: []
 ---
 

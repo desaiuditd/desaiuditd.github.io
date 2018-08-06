@@ -1,8 +1,17 @@
 ---
+title: Temporary DB tables in WordPress PhpUnit
+date: 2014-09-27 15:23:41 Z
+categories:
+- Tech
+tags:
+- WordPress
+- PhpUnit
+- Testing
+- Tescases
+- Database
+- MySQL
 layout: post
 status: publish
-published: true
-title: Temporary DB tables in WordPress PhpUnit
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,17 +22,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 279
 wordpress_url: http://blog.incognitech.in/?p=279
-date: '2014-09-27 11:23:41 -0400'
 date_gmt: '2014-09-27 05:38:41 -0400'
-categories:
-- Tech
-tags:
-- WordPress
-- PhpUnit
-- Testing
-- Tescases
-- Database
-- MySQL
 comments: []
 ---
 

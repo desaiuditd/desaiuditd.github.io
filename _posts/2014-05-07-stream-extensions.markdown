@@ -1,8 +1,10 @@
 ---
+title: Stream Extensions
+date: 2014-05-07 23:14:18 Z
+categories:
+- Tech
 layout: post
 status: publish
-published: true
-title: Stream Extensions
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,11 +15,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 216
 wordpress_url: http://blog.incognitech.in/?p=216
-date: '2014-05-07 19:14:18 -0400'
 date_gmt: '2014-05-07 13:29:18 -0400'
-categories:
-- Tech
-tags: []
 comments: []
 ---
 

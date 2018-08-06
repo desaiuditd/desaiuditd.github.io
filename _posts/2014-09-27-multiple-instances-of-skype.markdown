@@ -1,8 +1,13 @@
 ---
+title: Multiple Instances of Skype
+date: 2014-09-27 15:56:30 Z
+categories:
+- Tech
+tags:
+- Skype
+- Multiple Instances
 layout: post
 status: publish
-published: true
-title: Multiple Instances of Skype
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 290
 wordpress_url: http://blog.incognitech.in/?p=290
-date: '2014-09-27 11:56:30 -0400'
 date_gmt: '2014-09-27 06:11:30 -0400'
-categories:
-- Tech
-tags:
-- Skype
-- Multiple Instances
 comments: []
 ---
 

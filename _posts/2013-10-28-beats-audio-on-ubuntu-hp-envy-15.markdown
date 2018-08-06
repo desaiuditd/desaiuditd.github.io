@@ -1,20 +1,6 @@
 ---
-layout: post
-status: publish
-published: true
 title: Beats Audio On Ubuntu (HP Envy 15)
-author:
-  display_name: Udit Desai
-  login: desaiuditd
-  email: desaiuditd@gmail.com
-  url: http://about.me/desaiuditd
-author_login: desaiuditd
-author_email: desaiuditd@gmail.com
-author_url: http://about.me/desaiuditd
-wordpress_id: 33
-wordpress_url: http://incognitech.wordpress.com/?p=33
-date: '2013-10-27 20:11:41 -0400'
-date_gmt: '2013-10-27 14:41:41 -0400'
+date: 2013-10-28 00:11:41 Z
 categories:
 - Tech
 tags:
@@ -25,6 +11,19 @@ tags:
 - Linux
 - Sub-Woofer
 - Ubuntu
+layout: post
+status: publish
+author:
+  display_name: Udit Desai
+  login: desaiuditd
+  email: desaiuditd@gmail.com
+  url: http://about.me/desaiuditd
+author_login: desaiuditd
+author_email: desaiuditd@gmail.com
+author_url: http://about.me/desaiuditd
+wordpress_id: 33
+wordpress_url: http://incognitech.wordpress.com/?p=33
+date_gmt: '2013-10-27 14:41:41 -0400'
 comments:
 - id: 4
   author: grateful reader

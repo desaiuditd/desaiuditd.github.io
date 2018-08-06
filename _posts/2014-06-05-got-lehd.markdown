@@ -1,8 +1,13 @@
 ---
+title: Got Leh'd
+date: 2014-06-05 01:56:28 Z
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
 layout: post
 status: publish
-published: true
-title: Got Leh'd
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 247
 wordpress_url: http://blog.incognitech.in/?p=247
-date: '2014-06-04 21:56:28 -0400'
 date_gmt: '2014-06-04 16:11:28 -0400'
-categories:
-- Instagram
-tags:
-- IFTTT
-- Instagram
 comments: []
 ---
 

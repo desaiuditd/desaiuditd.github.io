@@ -1,8 +1,15 @@
 ---
+title: Skype Audio on Ubuntu
+date: 2014-01-06 02:24:46 Z
+categories:
+- Tech
+tags:
+- Ubuntu
+- skype
+- audio
+- voice calls
 layout: post
 status: publish
-published: true
-title: Skype Audio on Ubuntu
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,15 +20,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 69
 wordpress_url: http://blog.incognitech.in/?p=69
-date: '2014-01-05 21:24:46 -0500'
 date_gmt: '2014-01-05 15:39:46 -0500'
-categories:
-- Tech
-tags:
-- Ubuntu
-- skype
-- audio
-- voice calls
 comments: []
 ---
 

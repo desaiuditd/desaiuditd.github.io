@@ -1,8 +1,13 @@
 ---
+title: Creaturous Crab or Delicious Dinner !
+date: 2014-05-19 02:19:36 Z
+categories:
+- Instagram
+tags:
+- IFTTT
+- Instagram
 layout: post
 status: publish
-published: true
-title: Creaturous Crab or Delicious Dinner !
 author:
   display_name: Udit Desai
   login: desaiuditd
@@ -13,13 +18,7 @@ author_email: desaiuditd@gmail.com
 author_url: http://about.me/desaiuditd
 wordpress_id: 245
 wordpress_url: http://blog.incognitech.in/?p=245
-date: '2014-05-18 22:19:36 -0400'
 date_gmt: '2014-05-18 16:34:36 -0400'
-categories:
-- Instagram
-tags:
-- IFTTT
-- Instagram
 comments: []
 ---
 

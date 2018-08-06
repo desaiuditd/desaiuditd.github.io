@@ -1,15 +1,15 @@
 ---
-layout: post
-status: publish
 title: Dear Woman
-date: '2015-04-15 12:39:28 -0400'
-date_gmt: '2015-04-15 12:39:28 -0400'
+date: 2015-04-15 16:39:28 Z
 categories:
 - Random
 tags:
 - Woman
 - Feminism
 - Womanhood
+layout: post
+status: publish
+date_gmt: '2015-04-15 12:39:28 -0400'
 ---
 
 # Dear Woman,

@@ -1,9 +1,6 @@
 ---
-layout: post
-status: publish
 title: TinyMCE Undefined Issue
-date: '2015-01-28 12:39:28 -0400'
-date_gmt: '2015-01-28 12:39:28 -0400'
+date: 2015-01-28 16:39:28 Z
 categories:
 - Tech
 tags:
@@ -12,6 +9,9 @@ tags:
 - WordPress
 - WYSIWYG
 - wp_editor
+layout: post
+status: publish
+date_gmt: '2015-01-28 12:39:28 -0400'
 ---
 
 WordPress supports a very rich WYSIWYG editor in terms of TinyMCE. It works perfectly well when we, ( here I'm referring to all the geeky developers :godmode: :wink: ) do not temper with the content of TinyMCE through JS code. In a nutshell, it is smooth and valid. But it happens very rare that we do not have to customize the way a feature behaves by default. So in this case, we may have to add new content or update the existing content or in some cases clear out the content in the editor.

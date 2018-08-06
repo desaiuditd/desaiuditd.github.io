@@ -1,17 +1,18 @@
 ---
-layout: post
-status: publish
-title: "FontAwesome in Android"
-date: '2016-02-29 12:39:28 -0400'
-date_gmt: '2016-02-29 12:39:28 -0400'
-category:
+title: FontAwesome in Android
+date: 2016-02-29 16:39:28 Z
+categories:
 - Tech
 tags:
 - Android
 - FontAwesome
 - fonts
 - Java
+layout: post
+status: publish
+date_gmt: '2016-02-29 12:39:28 -0400'
 ---
+
 {% include JB/setup %}
 
 [FontAwesome](http://fontawesome.io/) icon pack is quite popular in Web Development and it has got alot of custom icons related to almost every possible situation in your app/website that you may want to use.
